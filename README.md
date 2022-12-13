@@ -10,7 +10,9 @@ SEMCS constructs a Kriging-based model that maps the dimensionless parameters
 - porosity,
 - Peclet number,
 - kinetic number,
+
 to the effective transport parameters
+
 - permeability,
 - effective total dispersion (including effective diffusion),
 - effective kinetic number.
