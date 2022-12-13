@@ -15,4 +15,7 @@ to the effective transport parameters
 - effective total dispersion (including effective diffusion),
 - effective kinetic number.
 
+Please note that this model is currently under active development.
+
+
 Main contributors: R. Schaerer & J. Wlodarczyk
