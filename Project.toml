@@ -7,16 +7,21 @@ version = "0.1.0"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-Infiltrator = "5903a43b-9cc3-4c30-8d17-598619ec4e9b"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-SafeTestsets = "1bc83da4-3b8d-516f-aca4-4fe02f6d838f"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Surrogates = "6fc51010-71bc-11e9-0e15-a3fcc6593c49"
 
 [compat]
-julia = "1.8"
+Aqua = "~0.7"
+CSV = "~0.10"
+CairoMakie = "~0.10"
+DataFrames = "~1.6"
+Statistics = "~1.9"
+Surrogates = "~6.6"
+julia = "1.9"
 
 [extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]

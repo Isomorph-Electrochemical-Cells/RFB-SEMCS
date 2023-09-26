@@ -1,10 +1,13 @@
+module TestPermeability
+
 using SEMCS
 using CSV
 using DataFrames
 using Test
 using Infiltrator
 
-function permeability_verification()
+function test()
+
 
     path_data_yazdchi = joinpath(dirname(pathof(SEMCS)), "..",
                         "data/verification/Yazdchi_2011/Yazdchi_porosity_permeability.csv")
@@ -41,4 +44,4 @@ function permeability_verification()
     @test maximum(abs.(result[1,:] - kdxx_values)./abs.(kdxx_values)) < rel_tol
 end
 
-permeability_verification()
+end

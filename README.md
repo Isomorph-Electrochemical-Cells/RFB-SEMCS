@@ -1,5 +1,7 @@
 # SEMCS
 
+[![Aqua QA](https://raw.githubusercontent.com/JuliaTesting/Aqua.jl/master/badge.svg)](https://github.com/JuliaTesting/Aqua.jl)
+
 Simplified volume-averaged Electrode Model for the use in Continuum Scale RFB models.
 
 The SEMCS model allows evaluating the effective transport parameters relevant for continuum-scale descriptions of porous electrodes in flow batteries. Specifically, SEMCS is a Kriging-based surrogate model for fast evaluations of the effective parameters. 
