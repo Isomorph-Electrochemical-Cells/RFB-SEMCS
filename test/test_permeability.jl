@@ -1,14 +1,11 @@
 module TestPermeability
 
 using SEMCS
+using Test
 using CSV
 using DataFrames
-using Test
-using Infiltrator
 
 function test()
-
-
     path_data_yazdchi = joinpath(dirname(pathof(SEMCS)), "..",
                         "data/verification/Yazdchi_2011/Yazdchi_porosity_permeability.csv")
 

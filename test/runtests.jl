@@ -1,10 +1,17 @@
 using SEMCS
+using CSV
+using DataFrames
 using Test
 using Aqua
 
 @time @testset "Permeability" begin
     include("test_permeability.jl")
     TestPermeability.test()
+end
+
+@time @testset "Diffusion" begin
+    include("test_effective_diffusion.jl")
+    TestEffectiveDiffusion.test()
 end
 
 @testset "Aqua" begin

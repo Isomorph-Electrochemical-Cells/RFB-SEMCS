@@ -1,9 +1,7 @@
 function read_data(file_path)
-    df_data = CSV.read(file_path, DataFrame;
-        header=1, delim=",", types=Float64)
+    df_data = CSV.read(file_path, DataFrame; header=1, delim=",", types=Float64)
     return df_data
 end
-
 
 
 function preprocess_legacy_data!(df_data)

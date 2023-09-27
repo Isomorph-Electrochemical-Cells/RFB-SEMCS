@@ -40,6 +40,15 @@ function generate_model(file_path)
     return SEM(df, input_variables, output_variables)
 end
 
+function generate_model(df::DataFrame)
+    input_variables = [:epsilon, :pe_d, :ki_d]
+    output_variables = [:k_d_xx, :d_eff_d_xx, :ki_eff_d_xx]
+
+    df_copy = copy(df)
+    preprocess_data!(df_copy)
+    return SEM(df_copy, input_variables, output_variables)
+end
+
 function evaluate!(result, model, values)
     for idx_output in range(1,length(model.models))
         for idx_input in range(1,size(values,2))
