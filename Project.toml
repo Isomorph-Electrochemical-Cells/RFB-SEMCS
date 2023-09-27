@@ -15,9 +15,9 @@ Surrogates = "6fc51010-71bc-11e9-0e15-a3fcc6593c49"
 Aqua = "~0.7"
 CSV = "~0.10"
 CairoMakie = "~0.10"
-DataFrames = "~1.6"
-Statistics = "~1.9"
-Surrogates = "~6.6"
+DataFrames = "~1"
+Statistics = "~1"
+Surrogates = "~6"
 julia = "1.9"
 
 [extras]
